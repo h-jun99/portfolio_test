@@ -593,7 +593,7 @@ main .mainsectionimg .changeback {
 .front,
 .back {
   background-size: cover;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.25);
   border-radius: 10px;
   background-position: center;
   -webkit-transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
@@ -609,7 +609,7 @@ main .mainsectionimg .changeback {
   border-radius: 10px;
   color: #fff;
   font-size: 1.5rem;
-
+  border: 2px solid #fff;
 }
 
 
@@ -629,8 +629,8 @@ main .mainsectionimg .changeback {
   height: 100%;
   content: '';
   display: block;
-  opacity: .6;
-  background-color: #000;
+  /* opacity: .6;
+  background-color: #000; */
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   border-radius: 10px;
@@ -705,7 +705,7 @@ main .mainsectionimg .changeback {
   font-size: 3rem;
 }
 
-.front .inner span {
+.back .inner span {
   font-size: 1.8rem;
   color: rgb(255, 77, 77);
   margin-top: 15px;
@@ -750,6 +750,7 @@ main .mainsectionimg .changeback {
   width: 100%;
   padding: 100px;
   padding-top: 100px;
+  background-color: #000;
 }
 
 .clonesection .clonelistsection {
@@ -761,7 +762,7 @@ main .mainsectionimg .changeback {
 .clonesection h1 {
   font-size: 5rem;
   margin-left: 180px;
-  color: #000;
+  color: #fff;
   text-shadow: 2px 2px 5px #ff98a8;
 }
 
@@ -783,6 +784,7 @@ main .mainsectionimg .changeback {
   width: 100%;
   padding: 100px;
   padding-top: 50px;
+  background-color: #000;
 }
 
 .redesignsection .redesignlistsection {
@@ -794,7 +796,7 @@ main .mainsectionimg .changeback {
 .redesignsection h1 {
   font-size: 5rem;
   margin-left: 180px;
-  color: #000;
+  color: #fff;
   text-shadow: 2px 2px 5px #ff98a8;
   
 }
@@ -818,6 +820,7 @@ main .mainsectionimg .changeback {
   width: 100%;
   padding: 100px;
   padding-top: 50px;
+  background-color: #000;
 }
 
 .appdesignsection .appdesignlistsection {
@@ -830,7 +833,7 @@ main .mainsectionimg .changeback {
 .appdesignsection h1 {
   font-size: 5rem;
   margin-left: 180px;
-  color: #000;
+  color: #fff;
   text-shadow: 2px 2px 5px #ff98a8;
 }
 
@@ -862,11 +865,12 @@ main .mainsectionimg .changeback {
   width: 100%;
   padding: 100px;
   padding-top: 50px;
+  background-color: #000;
 }
 .designsum h1 {
   font-size: 5rem;
   margin-left: 180px;
-  color: #000;
+  color: #fff;
   text-shadow: 2px 2px 5px #ff98a8;
 }
 .designsum .works {
@@ -883,6 +887,8 @@ main .mainsectionimg .changeback {
   background-color: #ee88aa;
   height: 400px;
   overflow: hidden;
+  border: 2px solid #fff;
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.25);
 }
 .designsum .works .worksum::after {
   content: '';
