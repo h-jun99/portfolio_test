@@ -1,0 +1,260 @@
+@media screen and (max-width: 1700px){
+    .wave {
+        left: 28%;
+    }
+}
+@media screen and (max-width: 1400px){
+    html {
+        font-size: 8px;
+    }
+    .wave {
+        left: 25%;
+    }
+    .appdesignsection .appdesignlistsection .wrap {
+        width: 60%;
+    }
+    .designsum .works {
+        width: 90%;
+    }
+    .focus {
+        top: 99%;
+    }
+    .profilecontainer .item .skill {
+        margin-top: 8px;
+        width: 60%;
+    }
+    .profilecontainer .item .skill li {
+        margin: 6px;
+    }
+    .profilecontainer .item .resume {
+        margin-top: 40px;
+    }
+    .clonesection h1 {
+        margin-left: 120px;
+    }
+    .redesignsection h1 {
+        margin-left: 120px;
+    }
+    .appdesignsection h1 {
+        margin-left: 120px;
+    }
+    .designsum h1 {
+        margin-left: 120px;
+    }
+    .appdesignsection .appdesignlistsection li .front, .appdesignsection .appdesignlistsection li .back {
+        min-height: 400px;
+    }
+}
+@media screen and (max-width: 1250px){
+    .wave {
+        left: 20%;
+    }
+    .designsum .works {
+        width: 80%;
+    }
+    .designsum .works .worksum {
+        height: 250px;
+    }
+}
+@media screen and (max-width: 1200px){
+    .profilecontainer .item .resume {
+        margin-top: 15px;
+    }
+}
+@media screen and (max-width: 1100px){
+    .wave {
+        left: 17%;
+    }
+}
+@media screen and (max-width: 1000px){
+    .wave {
+        display: none;
+    }
+    html {
+        font-size: 6px;
+    }
+    main .mainsectionimg .changeback {
+        opacity: 0.5;
+    }
+    .navigation {
+        width: 8rem;
+    }
+    .navigation ul li a .icon {
+        line-height: 8.5rem;
+    }
+    .focus {
+        top: 75%;
+        letter-spacing: 1.8px;
+    }
+    .wrapper {
+        top: 7%;
+        left: 52%;
+    }
+    .mask {
+        width: 60px;
+        clip: rect(0px, 60px, 60px, 0px);
+    }
+    .profilecontainer {
+        height: 250px;
+    }
+    .profilecontainer .item .skill {
+        margin-top: 8px;
+    }
+    .profilecontainer .item .resume {
+        margin-top: 30px;
+        width: 20rem;
+        height: 6rem;
+    }
+    .clonesection h1 {
+        margin-left: 80px;
+    }
+    .redesignsection h1 {
+        margin-left: 80px;
+    }
+    .appdesignsection h1 {
+        margin-left: 80px;
+    }
+    .designsum h1 {
+        margin-left: 80px;
+    }
+    .designsum .works {
+        width: 80%;
+    }
+    .designsum .works .worksum {
+        height: 210px;
+    }
+    .contact .phonesection {
+        width: 200px;
+        height: 400px;
+    }
+    
+}
+@media screen and (max-width: 990px){
+    .profilecontainer .item .resume {
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 768px){
+    .clonesection .clonelistsection {
+        display: block;
+    }
+    .redesignsection .redesignlistsection {
+        display: block;
+    }
+    .appdesignsection .appdesignlistsection {
+        display: block;
+    }
+    .designsum .works {
+        display: block;
+        margin-bottom: 20px;
+    }
+    .designsum .works .worksum {
+        height: 100px;
+        margin-bottom: 3px;
+    }
+    .designsum .works .worksum:hover::after {
+        top: 0;
+    }
+}
+@media screen and (max-width: 693px){
+    .profilecontainer .item .resume {
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width: 641px){
+    .navigation {
+        display: none;
+    }
+    .myprofile {
+        padding-top: 100px;
+        height: 850px;
+    }
+    .profilecontainer {
+        display: block;
+        width: 80%;
+        height: 500px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .profilecontainer .item {
+        margin-bottom: 10px;
+        
+    }
+    .profilecontainer .item:nth-child(1) {
+        padding-top: 18px;
+    }
+    .profilecontainer .item_mobile button {
+        margin-top: 14px;
+        width: 28rem;
+        height: 7rem;
+        margin-bottom: 14px;
+    }
+    .profilecontainer .item:nth-child(3) {
+        display: none;
+    }
+    .profilecontainer .item_mobile {
+        display: block;
+    }
+
+
+
+    .clonesection {
+        padding: 100px 0;
+    }
+    .clonesection h1 {
+        margin-left: 50px;
+    }
+    .redesignsection {
+        padding: 100px 0;
+    }
+    .redesignsection h1 {
+        margin-left: 50px;
+    }
+    .appdesignsection {
+        padding: 100px 0;
+    }
+    .appdesignsection h1 {
+        margin-left: 50px;
+    }
+    .designsum {
+        padding: 100px 0;
+    }
+    .designsum h1 {
+        margin-left: 50px;
+    }
+
+    .front,
+    .back {
+        min-height: 220px;
+    }
+    .designsum .workpopup .popupimg img {
+        width: 30rem;
+    }
+    
+    .designsum .popupfigma {
+        width: 6rem;
+        right: 23%;
+        overflow: hidden;
+    }
+}
+@media screen and (max-width: 383px){
+    main .mainsectionimg video {
+        width: 50rem;
+        height: 50rem;
+    }
+    main .mainsectionimg .changeback {
+        width: 50rem;
+        height: 50rem;
+    }
+}
+@media screen and (max-width: 310px){
+    main .mainsectionimg video {
+        width: 40rem;
+        height: 40rem;
+    }
+    main .mainsectionimg .changeback {
+        width: 40rem;
+        height: 40rem;
+    }
+    
+}
