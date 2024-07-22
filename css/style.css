@@ -778,6 +778,9 @@ main .mainsectionimg .changeback {
 .clonesection .clonelistsection li:nth-child(2) .front {
   background: url('../img/clone2.jpg') no-repeat center/cover;
 }
+.clonesection .clonelistsection li:nth-child(3) .front {
+  background: url('../img/add.jpg') no-repeat center/cover;
+}
 
 /* 리디자인 섹션 */
 .redesignsection {
@@ -812,6 +815,10 @@ main .mainsectionimg .changeback {
 
 .redesignsection .redesignlistsection li:nth-child(2) .front {
   background: url('../img/re2.jpg') no-repeat center/cover;
+}
+
+.redesignsection .redesignlistsection li:nth-child(3) .front {
+  background: url('../img/add.jpg') no-repeat center/cover;
 }
 
 
