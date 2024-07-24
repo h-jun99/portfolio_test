@@ -183,6 +183,9 @@
     .profilecontainer .item:nth-child(1) {
         padding-top: 18px;
     }
+    .profilecontainer .item .skill {
+        width: 30%;
+    }
     .profilecontainer .item_mobile button {
         margin-top: 14px;
         width: 28rem;
@@ -237,6 +240,16 @@
         overflow: hidden;
     }
 }
+@media screen and (max-width: 570px) {
+    .profilecontainer .item .skill {
+        width: 40%;
+    }    
+}
+@media screen and (max-width: 431px) {
+    .profilecontainer .item .skill {
+        width: 50%;
+    }    
+}
 @media screen and (max-width: 383px){
     main .mainsectionimg video {
         width: 50rem;
@@ -246,6 +259,11 @@
         width: 50rem;
         height: 50rem;
     }
+}
+@media screen and (max-width: 350px) {
+    .profilecontainer .item .skill {
+        width: 60%;
+    }    
 }
 @media screen and (max-width: 310px){
     main .mainsectionimg video {
