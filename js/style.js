@@ -86,4 +86,14 @@ $(function(){
         $('.popupfigma').removeClass('on')
     })
 
+
+
+
+
+    // 화이트다크모드
+    $('.daynight').click(function(){
+        $('*').toggleClass('day')
+        $('.clickbutton').toggleClass('on')
+        $('.daynight').toggleClass('on')
+    })
 })
