@@ -290,9 +290,9 @@ main .mainsectionimg .changeback {
 main .mainsectionimg .daynight {
   width: 100px;
   height: 44px;
-  position: fixed;
+  position: absolute;
   z-index: 99;
-  right: 100px;
+  right: 10rem;
   top: 50px;
   background: linear-gradient(to bottom, #8b8c8e 20%, #f4f4f4);
   border-radius: 25px;
