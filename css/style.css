@@ -183,8 +183,8 @@ h1 {
 .wave {
   opacity: .7;
   position: absolute;
-  top: 15%;
-  left: 31%;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
   border: 2px solid #3781aa;
   width: 700px;
@@ -212,28 +212,28 @@ h1 {
 
 @-webkit-keyframes drift {
   from {
-    -webkit-transform: rotate(0deg) scale(0, 0);
-    transform: rotate(0deg) scale(0, 0);
+    /* -webkit-transform: rotate(0deg) scale(0, 0); */
+    transform: translate(-50%, -50%) rotate(0deg) scale(0, 0);
     opacity: 1;
   }
 
   to {
-    -webkit-transform: rotate(360deg) scale(2, 2);
-    transform: rotate(360deg) scale(2, 2);
+    /* -webkit-transform: rotate(360deg) scale(2, 2); */
+    transform: translate(-50%, -50%) rotate(360deg) scale(2, 2);
     opacity: 0;
   }
 }
 
 @keyframes drift {
   from {
-    -webkit-transform: rotate(0deg) scale(0, 0);
-    transform: rotate(0deg) scale(0, 0);
+    /* -webkit-transform: rotate(0deg) scale(0, 0); */
+    transform: translate(-50%, -50%) rotate(0deg) scale(0, 0);
     opacity: 1;
   }
 
   to {
-    -webkit-transform: rotate(360deg) scale(2, 2);
-    transform: rotate(360deg) scale(2, 2);
+    /* -webkit-transform: rotate(360deg) scale(2, 2); */
+    transform: translate(-50%, -50%) rotate(360deg) scale(2, 2);
     opacity: 0;
   }
 }
